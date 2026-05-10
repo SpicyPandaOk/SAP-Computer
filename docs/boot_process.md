@@ -1,0 +1,2 @@
+On loading the computer starts in boot mode. The Boot ROM gets its data from a linked hex file. There is a 4 bit counter that ticks every cycle and feeds into the address of the boot ROM. when the counter carries out it turns on the signal Done_boot and turns off Reset. 
+Loads into RAM using two Muxes, one for adress one for data. When the done_boot signal is off it chooses the path from the ROM, when it turns on it gets its signals from the bus and MAR. This then goes through every value in the rom and loads it into the corresponding adress in the RAM.
