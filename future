@@ -1,0 +1,4 @@
+Potential future plans: upgrade from SAP/CISC to RISC,
+Implement multiple registers besides one accumulator,
+Expand ISA to include more capabilities,
+clean up booting architecture
