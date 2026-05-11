@@ -25,7 +25,7 @@ int main()
 	values["HLT"] = 0xF;
 
     std::ifstream myFile("code.txt");
-    std::string output;
+    std::string output = "v2.0 raw\n";
 
     if (!myFile.is_open())
     {
